@@ -1,0 +1,235 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json node-pre-gyp-test-app1@0.1.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'C:\\Users\\Eddie\\nwapp', [] ]
+8 info preinstall node-pre-gyp-test-app1@0.1.0
+9 verbose readDependencies using package.json deps
+10 silly resolved []
+11 info build C:\Users\Eddie\nwapp
+12 verbose linkStuff [ false, false, false, 'C:\\Users\\Eddie' ]
+13 info linkStuff node-pre-gyp-test-app1@0.1.0
+14 verbose linkBins node-pre-gyp-test-app1@0.1.0
+15 verbose linkMans node-pre-gyp-test-app1@0.1.0
+16 verbose rebuildBundles node-pre-gyp-test-app1@0.1.0
+17 verbose rebuildBundles [ '.bin', 'node-pre-gyp', 'pre-gyp-find' ]
+18 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp
+19 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp
+20 info preinstall node-pre-gyp@0.6.1
+21 verbose linkStuff [ false, false, false, 'C:\\Users\\Eddie\\nwapp\\node_modules' ]
+22 info linkStuff node-pre-gyp@0.6.1
+23 verbose linkBins node-pre-gyp@0.6.1
+24 verbose link bins [ { 'node-pre-gyp': './bin/node-pre-gyp' },
+24 verbose link bins   'C:\\Users\\Eddie\\nwapp\\node_modules\\.bin',
+24 verbose link bins   false ]
+25 verbose linkMans node-pre-gyp@0.6.1
+26 verbose rebuildBundles node-pre-gyp@0.6.1
+27 verbose rebuildBundles [ '.bin',
+27 verbose rebuildBundles   'mkdirp',
+27 verbose rebuildBundles   'nopt',
+27 verbose rebuildBundles   'npmlog',
+27 verbose rebuildBundles   'rc',
+27 verbose rebuildBundles   'request',
+27 verbose rebuildBundles   'rimraf',
+27 verbose rebuildBundles   'semver',
+27 verbose rebuildBundles   'tar',
+27 verbose rebuildBundles   'tar-pack' ]
+28 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\mkdirp
+29 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\mkdirp
+30 info preinstall mkdirp@0.5.0
+31 verbose linkStuff [ false,
+31 verbose linkStuff   false,
+31 verbose linkStuff   false,
+31 verbose linkStuff   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules' ]
+32 info linkStuff mkdirp@0.5.0
+33 verbose linkBins mkdirp@0.5.0
+34 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+34 verbose link bins   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules\\.bin',
+34 verbose link bins   false ]
+35 verbose linkMans mkdirp@0.5.0
+36 verbose rebuildBundles mkdirp@0.5.0
+37 verbose rebuildBundles [ 'minimist' ]
+38 info install mkdirp@0.5.0
+39 info postinstall mkdirp@0.5.0
+40 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\nopt
+41 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\nopt
+42 info preinstall nopt@3.0.1
+43 verbose linkStuff [ false,
+43 verbose linkStuff   false,
+43 verbose linkStuff   false,
+43 verbose linkStuff   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules' ]
+44 info linkStuff nopt@3.0.1
+45 verbose linkBins nopt@3.0.1
+46 verbose link bins [ { nopt: './bin/nopt.js' },
+46 verbose link bins   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules\\.bin',
+46 verbose link bins   false ]
+47 verbose linkMans nopt@3.0.1
+48 verbose rebuildBundles nopt@3.0.1
+49 verbose rebuildBundles [ 'abbrev' ]
+50 info install nopt@3.0.1
+51 info postinstall nopt@3.0.1
+52 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\npmlog
+53 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\npmlog
+54 info preinstall npmlog@0.1.1
+55 verbose linkStuff [ false,
+55 verbose linkStuff   false,
+55 verbose linkStuff   false,
+55 verbose linkStuff   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules' ]
+56 info linkStuff npmlog@0.1.1
+57 verbose linkBins npmlog@0.1.1
+58 verbose linkMans npmlog@0.1.1
+59 verbose rebuildBundles npmlog@0.1.1
+60 verbose rebuildBundles [ 'ansi' ]
+61 info install npmlog@0.1.1
+62 info postinstall npmlog@0.1.1
+63 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\rc
+64 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\rc
+65 info preinstall rc@0.5.4
+66 verbose linkStuff [ false,
+66 verbose linkStuff   false,
+66 verbose linkStuff   false,
+66 verbose linkStuff   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules' ]
+67 info linkStuff rc@0.5.4
+68 verbose linkBins rc@0.5.4
+69 verbose link bins [ { rc: './index.js' },
+69 verbose link bins   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules\\.bin',
+69 verbose link bins   false ]
+70 verbose linkMans rc@0.5.4
+71 verbose rebuildBundles rc@0.5.4
+72 verbose rebuildBundles [ 'deep-extend', 'ini', 'minimist', 'strip-json-comments' ]
+73 info install rc@0.5.4
+74 info postinstall rc@0.5.4
+75 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\request
+76 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\request
+77 info preinstall request@2.48.0
+78 verbose linkStuff [ false,
+78 verbose linkStuff   false,
+78 verbose linkStuff   false,
+78 verbose linkStuff   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules' ]
+79 info linkStuff request@2.48.0
+80 verbose linkBins request@2.48.0
+81 verbose linkMans request@2.48.0
+82 verbose rebuildBundles request@2.48.0
+83 verbose rebuildBundles [ 'aws-sign2',
+83 verbose rebuildBundles   'bl',
+83 verbose rebuildBundles   'caseless',
+83 verbose rebuildBundles   'combined-stream',
+83 verbose rebuildBundles   'forever-agent',
+83 verbose rebuildBundles   'form-data',
+83 verbose rebuildBundles   'hawk',
+83 verbose rebuildBundles   'http-signature',
+83 verbose rebuildBundles   'json-stringify-safe',
+83 verbose rebuildBundles   'mime-types',
+83 verbose rebuildBundles   'node-uuid',
+83 verbose rebuildBundles   'oauth-sign',
+83 verbose rebuildBundles   'qs',
+83 verbose rebuildBundles   'stringstream',
+83 verbose rebuildBundles   'tough-cookie',
+83 verbose rebuildBundles   'tunnel-agent' ]
+84 info install request@2.48.0
+85 info postinstall request@2.48.0
+86 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\rimraf
+87 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\rimraf
+88 info preinstall rimraf@2.2.8
+89 verbose linkStuff [ false,
+89 verbose linkStuff   false,
+89 verbose linkStuff   false,
+89 verbose linkStuff   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules' ]
+90 info linkStuff rimraf@2.2.8
+91 verbose linkBins rimraf@2.2.8
+92 verbose link bins [ { rimraf: './bin.js' },
+92 verbose link bins   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules\\.bin',
+92 verbose link bins   false ]
+93 verbose linkMans rimraf@2.2.8
+94 verbose rebuildBundles rimraf@2.2.8
+95 info install rimraf@2.2.8
+96 info postinstall rimraf@2.2.8
+97 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\semver
+98 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\semver
+99 info preinstall semver@4.1.0
+100 verbose linkStuff [ false,
+100 verbose linkStuff   false,
+100 verbose linkStuff   false,
+100 verbose linkStuff   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules' ]
+101 info linkStuff semver@4.1.0
+102 verbose linkBins semver@4.1.0
+103 verbose link bins [ { semver: './bin/semver' },
+103 verbose link bins   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules\\.bin',
+103 verbose link bins   false ]
+104 verbose linkMans semver@4.1.0
+105 verbose rebuildBundles semver@4.1.0
+106 info install semver@4.1.0
+107 info postinstall semver@4.1.0
+108 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\tar
+109 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\tar
+110 info preinstall tar@1.0.2
+111 verbose linkStuff [ false,
+111 verbose linkStuff   false,
+111 verbose linkStuff   false,
+111 verbose linkStuff   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules' ]
+112 info linkStuff tar@1.0.2
+113 verbose linkBins tar@1.0.2
+114 verbose linkMans tar@1.0.2
+115 verbose rebuildBundles tar@1.0.2
+116 verbose rebuildBundles [ 'block-stream', 'fstream', 'inherits' ]
+117 info install tar@1.0.2
+118 info postinstall tar@1.0.2
+119 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\tar-pack
+120 info build C:\Users\Eddie\nwapp\node_modules\node-pre-gyp\node_modules\tar-pack
+121 info preinstall tar-pack@2.0.0
+122 verbose linkStuff [ false,
+122 verbose linkStuff   false,
+122 verbose linkStuff   false,
+122 verbose linkStuff   'C:\\Users\\Eddie\\nwapp\\node_modules\\node-pre-gyp\\node_modules' ]
+123 info linkStuff tar-pack@2.0.0
+124 verbose linkBins tar-pack@2.0.0
+125 verbose linkMans tar-pack@2.0.0
+126 verbose rebuildBundles tar-pack@2.0.0
+127 verbose rebuildBundles [ 'debug',
+127 verbose rebuildBundles   'fstream',
+127 verbose rebuildBundles   'fstream-ignore',
+127 verbose rebuildBundles   'graceful-fs',
+127 verbose rebuildBundles   'once',
+127 verbose rebuildBundles   'readable-stream',
+127 verbose rebuildBundles   'tar',
+127 verbose rebuildBundles   'uid-number' ]
+128 info install tar-pack@2.0.0
+129 info postinstall tar-pack@2.0.0
+130 info install node-pre-gyp@0.6.1
+131 info postinstall node-pre-gyp@0.6.1
+132 verbose rebuild bundle C:\Users\Eddie\nwapp\node_modules\pre-gyp-find
+133 info build C:\Users\Eddie\nwapp\node_modules\pre-gyp-find
+134 info preinstall pre-gyp-find@0.6.0
+135 verbose linkStuff [ false, false, false, 'C:\\Users\\Eddie\\nwapp\\node_modules' ]
+136 info linkStuff pre-gyp-find@0.6.0
+137 verbose linkBins pre-gyp-find@0.6.0
+138 verbose linkMans pre-gyp-find@0.6.0
+139 verbose rebuildBundles pre-gyp-find@0.6.0
+140 verbose rebuildBundles [ 'bindings', 'pre-gyp-versioning' ]
+141 info install pre-gyp-find@0.6.0
+142 info postinstall pre-gyp-find@0.6.0
+143 info install node-pre-gyp-test-app1@0.1.0
+144 verbose unsafe-perm in lifecycle true
+145 info node-pre-gyp-test-app1@0.1.0 Failed to exec install script
+146 error node-pre-gyp-test-app1@0.1.0 install: `node-pre-gyp install --fallback-to-build`
+146 error Exit status 1
+147 error Failed at the node-pre-gyp-test-app1@0.1.0 install script.
+147 error This is most likely a problem with the node-pre-gyp-test-app1 package,
+147 error not with npm itself.
+147 error Tell the author that this fails on your system:
+147 error     node-pre-gyp install --fallback-to-build
+147 error You can get their info via:
+147 error     npm owner ls node-pre-gyp-test-app1
+147 error There is likely additional logging output above.
+148 error System Windows_NT 6.1.7601
+149 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+150 error cwd C:\Users\Eddie\nwapp
+151 error node -v v0.10.33
+152 error npm -v 1.4.28
+153 error code ELIFECYCLE
+154 verbose exit [ 1, true ]
