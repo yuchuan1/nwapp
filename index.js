@@ -1,2 +1,4 @@
 var binding = require('pre-gyp-find')('app1');
-console.log(binding.hello());
+
+module.exports.hello = binding.hello();
+console.log(binding.hello() + " from node-pre-gyp-test-app1");
