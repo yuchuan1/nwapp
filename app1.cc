@@ -10,7 +10,7 @@
     static void get_hello(const v8::FunctionCallbackInfo<v8::Value>& args)
     {
         v8::HandleScope scope(v8::Isolate::GetCurrent());
-        args.GetReturnValue().Set(v8::String::New("hello"));
+        args.GetReturnValue().Set(v8::String::New("hello world!"));
     }
 
 #else
@@ -18,7 +18,7 @@
     static v8::Handle<v8::Value> get_hello(const v8::Arguments& args)
     {
         v8::HandleScope scope;
-        return scope.Close(v8::String::New("hello"));
+        return scope.Close(v8::String::New("hello world!"));
     }
 
 #endif
